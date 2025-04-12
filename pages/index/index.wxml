@@ -59,7 +59,7 @@ module.exports = {
     </swiper>
   </view>
 </view>
-<view class="category-container">
+<!-- <view class="category-container">
   <view class="category-box">
     <view class="category-list" wx:for="{{categories}}" wx:key="id">
       <view class="category-column" bindtap="tabClick"
@@ -76,7 +76,8 @@ module.exports = {
       </view>
     </view>
   </view>
-</view>
+</view> -->
+<view class="space>"></view>
 <view class="notice-box" wx:if="{{noticeList}}">
   <swiper class="notice_swiper" vertical autoplay circular interval="8000">
     <swiper-item wx:for="{{noticeList.dataList}}" wx:key="id">

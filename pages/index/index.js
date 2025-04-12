@@ -124,7 +124,7 @@ Page({
       }
     })
     this.initBanners()
-    this.cmsCategories()
+    //this.cmsCategories()
     // https://www.yuque.com/apifm/nu0f75/wg5t98
     WXAPI.goodsv2({
       recommendStatus: 1
@@ -151,7 +151,7 @@ Page({
     if (!mallName) {
       return
     }
-    this.categories()
+    //this.categories()
     wx.setNavigationBarTitle({
       title: mallName
     })
