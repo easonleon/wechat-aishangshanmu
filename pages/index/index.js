@@ -139,7 +139,7 @@ Page({
     that.getNotice()
     that.kanjiaGoods()
     that.pingtuanGoods()
-    this.adPosition()
+    // this.adPosition()
     // 读取系统参数
     this.readConfigVal()
     getApp().configLoadOK = () => {

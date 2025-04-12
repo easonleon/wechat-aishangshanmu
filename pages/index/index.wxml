@@ -204,9 +204,9 @@ module.exports = {
   </view>
   <van-divider wx:if="{{ !loadingMoreHidden }}" contentPosition="center">没有更多啦</van-divider>
 </view>
-<view class='coupons-float' bindtap="goCoupons">
+<!-- <view class='coupons-float' bindtap="goCoupons">
   <image src="/images/gift.png"></image>
-</view>
+</view> -->
 
 <van-overlay show="{{ adPositionIndexPop }}">
   <view class="adPositionIndexPop">
